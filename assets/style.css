@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Login */
+.login-card {
+    width: 100%;
+    height: 350px;
+    max-width: 350px;
+    border-radius: 12px;
+}
+
+/* Dashboard menu */
+.menu-card {
+    border-radius: 12px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.menu-card:hover {
+    background: #198754;
+    color: white;
+}
+
+/* Scanner */
+.scanner-box {
+    height: 200px;
+    background: #198754;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* Sidebar link */
+.offcanvas a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    margin-top: 5px;
+}
+
