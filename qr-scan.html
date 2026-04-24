@@ -10,25 +10,11 @@
 
     <body>
 
-        <nav class="navbar bg-success navbar-dark">
+        <nav class="navbar">
             <div class="container-fluid">
-                <button class="btn btn-light" data-bs-toggle="offcanvas" data-bs-target="#menu">☰</button>
                 <span class="navbar-brand">QR Scanner</span>
             </div>
         </nav>
-
-        <div class="offcanvas offcanvas-start" id="menu">
-            <div class="offcanvas-header">
-                <h5>Menu</h5>
-                <button class="btn-close" data-bs-dismiss="offcanvas"></button>
-            </div>
-
-            <div class="offcanvas-body">
-                <a href="qr-scan.html" class="list-group-item">📷 Scan QR</a>
-                <a href="data-mhs.html" class="list-group-item">📋 Data</a>
-                <a href="form.html" class="list-group-item">➕ Tambah</a>
-            </div>
-        </div>
 
         <div class="container text-center mt-4">
 
@@ -39,9 +25,12 @@
         <p class="small">
             foto <br>
             Lokasi <br>
-            Data dikirim sebagai absensi
+            Waktu <br>
         </p>
-
+        
+            <form action="dashboard.html">
+                <button class="btn btn-dark w-100">Halaman Utama</button>
+            </form>
         </div>
 
     </body>
