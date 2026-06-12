@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+
+    <body>
+
+        <nav class="navbar">
+            <div class="container-fluid">
+                <button class="btn btn-light" data-bs-toggle="offcanvas" data-bs-target="#menu">☰</button>
+                <span class="navbar-brand"><i class="bi bi-house"></i> Dashboard</span>
+            </div>
+        </nav>
+
+        <div class="offcanvas offcanvas-start" id="menu">
+            <div class="offcanvas-header">
+                <h5>Menu</h5>
+                <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+
+            <div class="offcanvas-body">
+                <a href="qr-scan.php" class="list-group-item"><i class="bi bi-qr-code-scan"> </i>Scan QR</a>
+                <a href="data-mhs.php" class="list-group-item"><i class="bi bi-table"> </i>Data</a>
+                <a href="form-add-mhs.php" class="list-group-item"><i class="bi bi-plus-circle"> </i>Tambah</a>
+                <form action="index.php">
+                    <button class="btn btn-danger w-100">LOGOUT</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row g-3">
+                <div class="col-6">
+                    <a href="qr-scan.php" class="card menu-card text-center p-4">
+                        <h3><i class="bi bi-qr-code-scan"></i></h3>
+                        Scan QR
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="data-mhs.php" class="card menu-card text-center p-4">
+                        <h3><i class="bi bi-table"></i></h3>
+                        Data Mahasiswa
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="form-add-mhs.php" class="card menu-card text-center p-4">
+                        <h3><i class="bi bi-plus-circle"></i></h3>
+                        Tambah Mahasiswa
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
